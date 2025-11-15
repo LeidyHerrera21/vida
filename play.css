@@ -1,0 +1,90 @@
+body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: #0a0a0a;
+        color: #fff;
+        text-align: center;
+    }
+
+    .screen {
+        padding: 20px;
+        animation: fadeIn 0.4s ease;
+    }
+
+    .back-button {
+        background: #7a0000;
+        border: none;
+        padding: 10px 18px;
+        font-size: 16px;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .back-button:hover {
+        background: #b80000;
+    }
+
+    .content-title {
+        margin-top: 10px;
+        font-size: 28px;
+        text-shadow: 0 0 10px #ff000095;
+    }
+
+    .playlist-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        padding: 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .playlist-card {
+        background: #111;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px #ff000020;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .playlist-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px #ff000060;
+    }
+
+    .playlist-card h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: #ff5555;
+    }
+
+    .spotify-embed {
+        width: 100%;
+        height: 352px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    .action-button {
+        display: inline-block;
+        background: #9b0000;
+        color: white;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .action-button:hover {
+        background: #ff0000;
+        box-shadow: 0 0 10px #ff0000;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }

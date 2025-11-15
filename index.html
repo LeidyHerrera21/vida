@@ -22,9 +22,9 @@
 
 
     <div class="menu-grid">
-      <button class="menu-button" onclick="showScreen('characters')">Ficha de Personajes</button>
+      <button class="menu-button"  onclick="showScreen('characters')">Ficha de Personajes</button>
       <button class="menu-button" onclick="showScreen('data')">Datos Extra</button>
-      <button class="menu-button" onclick="showScreen('playlist')">Playlist</button>
+      <a class="menu-button" href="playlist.html">Playlist</a>
       <button class="menu-button" onclick="window.open('https://leidyherrera21.github.io/L.H/')">Página de la autora</button>
     </div>
   </section>
@@ -76,41 +76,6 @@
       <p>Circula el rumor de que la academia está habitada por vampiros, un secreto que la protagonista descubre al conocer a sus compañeros de clase. </p>
       <button class="info-button" onclick="location.href='extra/academia.html'">Ver información de la Academia</button>
     </div>
-
-  <section id="playlist" class="screen">
-    <button class="back-button" onclick="goBack()">← Volver</button>
-    <h2 class="content-title">PLAYLIST OFICIAL</h2>
-    <section class="playlist-section">
-  <div class="playlist-card">
-    <h3>Un Misterio Mortal</h3>
-    <iframe
-      src="https://open.spotify.com/embed/playlist/1cAPNr4Ryv6iC38HCd8tir"
-      class="spotify-embed"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy">
-    </iframe>
-    <a href="https://open.spotify.com/playlist/1cAPNr4Ryv6iC38HCd8tir"
-       target="_blank"
-       class="action-button">
-      Abrir en Spotify
-    </a>
-  </div>
-
-  <div class="playlist-card">
-    <h3>Cada Personaje</h3>
-    <iframe
-      src="https://open.spotify.com/embed/playlist/0BAk2utazyoCXNtP1UkLXd"
-      class="spotify-embed"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy">
-    </iframe>
-    <a href="https://open.spotify.com/playlist/0BAk2utazyoCXNtP1UkLXd"
-       target="_blank"
-       class="action-button">
-      Abrir en Spotify
-    </a>
-  </div>
-</section>
 
   <script src="script.js"></script>
 </body>

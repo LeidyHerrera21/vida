@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academia Ryoutei - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #D9C877;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/10/6b/eb/106beb1392b6b6e633cab255cb6148a0.jpg" alt="Ivi">
+
+  <h2>Academia Ryoutei</h2>
+
+  <p><strong>Nombre Oficial:</strong>  Ryōtei Gakuen</p>
+  <p><strong>Tipo de institución:</strong> Internado privado de élite </p>
+  <p><strong>Ubicación:</strong>  Zona aislada rodeada de bosques. <br>
+  ✞︎ No está cerca de zonas urbanas. <br>
+  ✞︎ Permite mantener un control estricto sobre estudiantes humanos y vampiros.</p>
+
+  <h3 class="section-title">ESTRUCTURA DEL CAMPUS</h3>
+
+  <h3 class="section-title">Estilo arquitectónico</h3>
+  <p>✞︎ Clásico europeo.<br>
+     ✞︎ Muros altos.<br>
+     ✞︎ Ventanas grandes con cortinas pesadas.<br>
+          ✞︎ Tonos oscuros y rojo vino.<br>
+     ✞︎ Pasillos largos y silenciosos.</p>
+
+
+  <h3 class="section-title">Instalaciones</h3>
+  <p>✞︎ Aulas amplias.<br>
+     ✞︎ Biblioteca gigante.<br>
+     ✞︎ Patio central.<br>
+     ✞︎ Edificio de dormitorios.<br>
+     ✞︎ Enfermería.<br>
+     ✞︎ Salón de actos.<br>
+     ✞︎ Comedor formal.<br>
+     ✞︎ Jardines privados.<br>
+     ✞︎ Salas de música.<br>
+     ✞︎ Laboratorios.<br>
+      ✞︎ Gimnasio espacioso.<br>
+       ✞︎ Salón de castigos y disciplina.<br>
+     ✞︎ Áreas donde solo vampiros pueden entrar.</p>
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">REGLAS DE LA ACADEMIA</h3>
+    <p> ✞︎  Los vampiros pueden alimentarse de humanos, pero deben hacerlo discretamente.<br>
+       ✞︎  Los humanos no deben abandonar el campus sin permiso. <br>
+       ✞︎ Queda prohibido revelar la existencia de vampiros al mundo exterior. <br>
+       ✞︎   Está totalmente prohibido: <br>
+         Usar poderes en público <br>
+         Matar estudiantes humanos<br>
+          Pelear entre familias vampíricas dentro del campus<br>
+       ✞︎   Las clases nocturnas son obligatorias para vampiros.<br>
+       ✞︎  Los vampiros de sangre pura tienen prioridad de recursos y alojamiento. <br>
+       ✞︎  Los estudiantes humanos solo pueden estar activos de día. <br>
+       ✞︎    Está prohibido entrar a las zonas “V” (Áreas exclusivas para vampiros).</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">HORARIOS</h3>
+    <p><br>
+        Para vampiros  <br>
+       ✞︎ Clases nocturnas <br>
+       ✞︎ Actividades entre las 19:00 y 05:00  <br>
+       ✞︎  Comidas especiales (vino de sangre) en el comedor nocturno<br>
+       <br>
+       Para humanos <br>
+       ✞︎ Ritmo de estudio más estricto<br>
+       ✞︎ Clases diurnas  <br>
+       ✞︎ Vigilancia constante  <br>
+       ✞︎  Dormitorio separado  </p>
+  </div>
+</div>
+
+  <br> <h3 class="section-title"> ASIGNATURAS TÍPICAS </h3>
+  <p> <br>
+        Para Humanos  <br>
+       ✞︎ Lengua <br>
+       ✞︎ Matemáticas <br>
+       ✞︎  Historia<br>
+       ✞︎ Educación física   <br>
+       ✞︎ Música  <br>
+       ✞︎  Religión  <br>
+       <br>
+       Para Vampiros  (clases especiales) <br>
+       ✞︎ Historia vampírica<br>
+       ✞︎ Control de sed<br>
+       ✞︎ Protocolo y etiqueta   <br>
+       ✞︎  Estrategia <br>
+       ✞︎  Dominación y manipulación  <br>
+       ✞︎  Historia de clanes <br>
+        ✞︎ Lenguajes arcanos  <br>
+       ✞︎ Defensa sobrenatural </p>
+
+  <h3 class="section-title">LA BIBLIOTECA</h3>
+  <p> Una de las zonas más importantes: <br>
+      ✞︎ Cuatro pisos <br>
+      ✞︎ Archivos antiguos<br>
+     ✞︎ Libros prohibidos<br>
+      ✞︎ Recopilación de clanes vampíricos<br>
+     ✞︎ Textos secretos sobre sangre pura<br>
+     ✞︎ Área privada con guardianes donde solo vampiros nobles pueden entrar</p>
+
+  <h3 class="section-title">DORMITORIOS</h3>
+  <p>Dormitorios vampiros  <br>
+       ✞︎ Habitaciones amplias y elegantes <br>
+       ✞︎ Cortinas pesadas que bloquean el sol <br>
+       ✞︎  Baños privados<br>
+       ✞︎  Ambientación según el estatus del vampiro   <br>
+       ✞︎ Ventanas grandes  <br>
+       <br>
+       Dormitorios humanos <br>
+       ✞︎  Mucho más simples<br>
+       ✞︎  Compartidos <br>
+       ✞︎  Estrictamente vigilados </p>
+
+  <h3 class="section-title">AMBÏENTE</h3>
+  <p>La Academia Ryoutei se caracteriza por:  <br>
+       ✞︎ Silencio profundo en los pasillos <br>
+       ✞︎ Sensación constante de peligro <br>
+       ✞︎  Vampiros caminando como si fueran nobles <br>
+       ✞︎ Profesores estrictos  <br>
+       ✞︎ Normas imponentes  <br>
+       ✞︎  Ambiente elegante, oscuro y misterioso<br>
+      <br>
+       ✞︎  Es un lugar donde los humanos viven con miedo
+y los vampiros con plena libertad. </p>
+
+
+  <h3 class="section-title">CURIOSIDADES </h3>
+  <p>✞︎ La escuela fue construida sobre terreno consagrado antiguo, pero la energía se corrompió por la presencia de sangre pura.<br>
+     ✞︎  Hay subterráneos secretos donde se hacen rituales. <br>
+     ✞︎ Algunos profesores son vampiros ancianos disfrazados de humanos.<br>
+     ✞︎ Las rosas del jardín pueden cambiar de color según la energía del estudiante que las toque. <br>
+     ✞︎ El aula del tercer piso está encantada: objetos se mueven solos.  </p>
+
+
+
+ 
+
+
+
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

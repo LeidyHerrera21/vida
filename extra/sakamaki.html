@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mansión Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #A9AC97;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/d3/bc/cb/d3bccba470f8b3469c5e26d959ac6d12.jpg" alt="Ivi">
+
+  <h2>Mansión Sakamaki</h2>
+
+  <p><strong>Ubicación:</strong> Se encuentra en una zona aislada, rodeada por un bosque oscuro. <br>
+    ✞︎ Las noches son especialmente densas: niebla, silencio, hojas que crujen solas. <br>
+    ✞︎ La mansión parece expandirse cuando Karlheinz está presente. <br>
+     ✞︎  El clima casi siempre es frío.<br>
+    ✞︎ Humanamente inaccesible.</p>
+
+  <h3 class="section-title">Arquitectura </h3>
+  <p>✞︎  Estilo gótico europeo.<br>
+     ✞︎  Muros de piedra negra y gris oscura.<br>
+     ✞︎ Ventanas altas con vitrales en rojo carmesí.<br>
+     ✞︎  Ornamentaciones con gárgolas, espinas, rosas y símbolos vampíricos antiguos.<br>
+     ✞︎  Techo alto con puntas afiladas.<br>
+     ✞︎ Un gran portón de hierro oxidado con el escudo de la familia.<br>
+     <br>
+     La entrada principal tiene: <br>
+     ✞︎ Un jardín marchito (las flores nunca viven allí).<br>
+     ✞︎ Una fuente vacía que antes tuvo agua roja según leyendas.<br>
+     ✞︎ Un camino de piedra que lleva a puertas enormes de madera negra.</p>
+
+<h3 class="section-title">Zonas Importantes del Interior</h3>
+<h3 class="section-title">  Vestíbulo Principal </h3>
+  <p>  ✞︎ Techo altísimo.<br>
+     ✞︎ Candelabros gigantes.<br>
+     ✞︎ Alfombra roja oscura que parece absorber la luz.<br>
+     ✞︎ Retratos de Karlheinz, Cordelia, Beatrix y Christa.<br>
+     ✞︎ Escaleras dobles que suben al segundo piso. </p>
+
+<h3 class="section-title">Salón Principal</h3>
+  <p> ✞︎  Lugar donde los hermanos suelen reunirse.<br>
+     ✞︎ Muebles antiguos, chimenea enorme, olor a vino y madera.<br>
+     ✞︎ Cortinas negras pesadas.<br>
+     ✞︎ Es común escuchar crujidos, como si hubiera pasos invisibles. </p>
+
+     <h3 class="section-title"> Comedor</h3>
+  <p> ✞︎  Mesa larguísima, siempre demasiado silenciosa.<br>
+     ✞︎ Candelabros con velas eternas.<br>
+     ✞︎ Vajilla antigua.<br>
+     ✞︎  Los Sakamaki rara vez comen comida humana ahí; usan el lugar para reuniones… y para jugar con sus presas.</p>
+
+<h3 class="section-title">Biblioteca Antigua </h3>
+  <p> ✞︎ Libros que datan de cientos de años. <br>
+     ✞︎ Enciclopedias de magia, rituales, genealogías.<br>
+     ✞︎ Se dice que algunos libros susurran.<br>
+     ✞︎  Ayato odia este lugar; Reiji lo ama.</p>
+
+
+<h3 class="section-title">Sala de Castigos de Reiji </h3>
+  <p> ✞︎ Látigos, cadenas, instrumentos de tortura antigua.<br>
+     ✞︎ Piso frío.<br>
+     ✞︎  Emma tiene prohibido entrar, y Ayato se lo ha dejado MUY claro.</p>
+
+<h3 class="section-title">Capilla Oscura </h3>
+  <p> ✞︎ Una pequeña iglesia abandonada dentro de la mansión. <br>
+     ✞︎ Bancos cubiertos de polvo.<br>
+     ✞︎ Imágenes religiosas retorcidas. <br>
+     ✞︎ Un lugar al que Ayato no entra desde niño, por sus traumas con Cordelia. </p>
+
+<h3 class="section-title"> Sala de Vampiros </h3>
+  <p> ✞︎ Pilares dorados.<br>
+     ✞︎ Ventanas altas.<br>
+     ✞︎ Cortinas vino oscuro.<br>
+          ✞︎ El piso de mármol refleja la luz de las velas.<br>
+     ✞︎ Fue el lugar de su primer beso, donde Ayato la acorraló contra una columna.<br>
+     ✞︎  Allí entrenan velocidad, salto y control físico.</p>
+
+<h3 class="section-title">Zonas Prohibidas </h3>
+  <p>✞︎ Sala de experimentos de Karlheinz.<br>
+     ✞︎ El sótano completo.<br>
+     ✞︎ La Capilla (según Ayato).<br>
+     ✞︎ El pasillo “que no existe” del tercer piso. <br>
+     ✞︎ Los cuartos cerrados de Cordelia.</p>
+
+
+  <h3 class="section-title">Habitaciones principales</h3>
+      
+  
+  <div class="info-container">
+  <div class="info-box">
+     <h3 class="section-title"> Ayato Sakamaki  </h3>
+  <p> ✞︎  Oscura, caótica, masculina.<br>
+       ✞︎  Colores: negro, rojo, gris profundo.<br>
+       ✞︎ Su cama es grande, siempre desordenada.<br>
+       ✞︎  Tiene armas escondidas.  <br>
+       ✞︎  Posters deportivos (rotos).  <br>
+       ✞︎  Ventana que da al bosque. <br>
+       ✞︎ La habitación de Emma está justo al lado.<br>
+       ✞︎   Olor a cuero y metal.</p> 
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title"> Reiji Sakamaki  </h3>
+  <p> ✞︎  Orden militar. <br>
+       ✞︎ Muebles elegantes.<br>
+       ✞︎  Libros perfectamente alineados. <br>
+       ✞︎  Perfume fuerte.<br>
+       ✞︎ Colores: vino, negro y dorado. <br>
+       ✞︎  Cama impecable.</p>
+  </div>
+
+<div class="info-container">
+  <div class="info-box">
+     <h3 class="section-title"> Shu Sakamaki  </h3>
+  <p> ✞︎    Casi vacía. <br>
+       ✞︎   Ropa tirada en el piso. <br>
+       ✞︎   Cama simple donde pasa el día durmiendo.<br>
+       ✞︎   Olor a madera vieja. <br>
+        ✞︎  Colores apagados. </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">  Subaru Sakamaki </h3>
+  <p> ✞︎   Paredes de piedra.  <br>
+       ✞︎  Objetos rotos.  <br>
+       ✞︎  Cama de metal. <br>
+       ✞︎   Velas por todas partes. <br>
+        ✞︎ Ventana pequeña.   <br>
+        ✞︎ Olor a rosas marchitas.</p> 
+  </div>
+ 
+
+  <div class="info-container">
+  <div class="info-box">
+     <h3 class="section-title"> Laito Sakamaki  </h3>
+  <p> ✞︎  Decoración seductora. <br>
+       ✞︎  Ropa elegante por doquier. <br>
+       ✞︎ Perfumes <br>
+       ✞︎  Sábanas de seda.  <br>
+       ✞︎  Espejos (demasiados).  <br>
+       ✞︎  Cama enorme.</p> 
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title"> Kanato Sakamaki  </h3>
+  <p> ✞︎  Oscura, tétrica. <br>
+       ✞︎ Muñecos antiguos.<br>
+       ✞︎  Peluches con costuras extrañas. <br>
+       ✞︎  Frascos misteriosos.<br>
+       ✞︎ Cama pequeña pero elegante. <br>
+       ✞︎  Olor a dulces… y cera.</p>
+  </div>
+
+  <div class="info-box">
+     <h3 class="section-title"> Laito Sakamaki  </h3>
+  <p> ✞︎  Decoración seductora. <br>
+       ✞︎  Ropa elegante por doquier. <br>
+       ✞︎ Perfumes <br>
+       ✞︎  Sábanas de seda.  <br>
+       ✞︎  Espejos (demasiados).  <br>
+       ✞︎  Cama enorme.</p> 
+  </div>
+
+   <div class="info-box">
+    <h3 class="section-title"> Emma Mukami  </h3>
+  <p> ✞︎  Ubicada al lado de la de Ayato. <br>
+       ✞︎ Colores: negro, plateado, gris platinado.<br>
+       ✞︎  Cama grande con cobijas suaves. <br>
+       ✞︎ Ventana enorme hacia el bosque. <br>
+       ✞︎ Mesa con rosas de todos los colores (Ayato le deja algunas). <br>
+       ✞︎ Cajita con dulces.<br>
+       ✞︎  Cajón secreto con cuchillos afilados. <br>
+       ✞︎  Aroma suave a vainilla y vino.<br>
+       ✞︎ Un espejo antiguo donde a veces aparecen sombras. <br>
+       ✞︎ Lugar favorito de Ayato para molestarla, morderla y dormir con ella. </p>
+  </div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mansión Mukami - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #7B441E;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/60/6c/f8/606cf8812f91884a26cedef8194640c9.jpg" alt="Ivi">
+
+  <h2>Mansión Mukami</h2>
+
+  <p><strong>Ubicación:</strong>  En un bosque apartado, lejos de zonas urbanas, rodeada de niebla y árboles altos.</p>
+
+  <h3 class="section-title">Arquitectura </h3>
+  <p>✞︎  Estilo neoclásico moderno.<br>
+     ✞︎ Fachada blanca con detalles dorados. <br>
+     ✞︎ Grandes ventanales, balcones y columnas.<br>
+     ✞︎ Jardines cuidados con rosas blancas y lilas.</p>
+
+
+  <h3 class="section-title">Habitaciones principales</h3>
+      
+  
+  <div class="info-container">
+  <div class="info-box">
+     <h3 class="section-title">Emma Mukami  </h3>
+  <p> ✞︎ Colores: blanco + dorado <br>
+       ✞︎ Cama enorme con dosel  <br>
+       ✞︎ Alfombra suave<br>
+       ✞︎ Ventana con vista al bosque    <br>
+       ✞︎ Espacio ordenado, elegante, silencioso   <br>
+       ✞︎ Tiene armas pequeñas escondidas en un cajón  <br>
+  </p> 
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Kou Mukami  </h3>
+  <p> ✞︎  Decoración extravagante <br>
+       ✞︎ Mucho blanco + dorado <br>
+       ✞︎  Perfumes, espejos, luces <br>
+       ✞︎ Pared con fotos autografiadas por fans <br>
+  </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Yuma Mukami  </h3>
+  <p> ✞︎ Rústica    <br>
+       ✞︎ Plantas por todas partes   <br>
+       ✞︎  Olor a tierra húmeda <br>
+       ✞︎  Herramientas de jardín   <br>
+  </p>  
+  
+  </div>
+
+</div>   
+
+  <div class="info-container">
+  <div class="info-box">
+     <h3 class="section-title">Azusa Mukami  </h3>
+  <p> ✞︎  Oscura   <br>
+       ✞︎  Velas negras  <br>
+       ✞︎  Muñecos extraños <br>
+       ✞︎  Cadenas y accesorios plateados   </p> 
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title"> Ruki Mukami  </h3>
+  <p> ✞︎  Estilo minimalista   <br>
+       ✞︎ Libreros llenos de textos antiguos <br>
+       ✞︎ Escritorio enorme  <br>
+       ✞︎  Olor a té negro y papel nuevo <br>
+  </p> 
+  </div>
+</div>
+
+
+
+  <h3 class="section-title">Zonas importantes de la mansión</h3>
+  <p> Biblioteca secreta: <br>
+      ✞︎ Con tomos sobre rituales, historia y tecnología mágica. <br>
+      <br>
+      Salón nocturno <br>
+     ✞︎  Espacio donde suelen comer, beber vino y recibir visitas.<br>
+       <br>
+       Invernadero  <br>
+     ✞︎ Repleto de plantas medicinales y raras; es territorio de Yuma.<br>
+    <br>
+       Sala de entrenamientos <br>
+     ✞︎ Donde Ruki y Emma entrenan precisión y velocidad.<br>
+    <br>
+    Cocina vampírica
+    <br>
+     ✞︎ Especializada en postres (para Emma), bebidas rojas y platos humanos adaptados.</p>
+
+  <h3 class="section-title">Relación de Emma con los Mukami </h3>
+  <p>✞︎ Ruki: siente respeto por su inteligencia<br>
+     ✞︎ Kou: la ve hermosa y la molesta, pero la admira<br>
+     ✞︎ Yuma: la trata como una pequeña hermana fuerte<br>
+     ✞︎ Azusa: la quiere mucho y la llama “Emma-nee” </p>
+
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

@@ -1,13 +1,17 @@
 function showScreen(screenId) {
+  // Ocultar todas las pantallas
   const screens = document.querySelectorAll('.screen');
-  screens.forEach(screen => {
-    screen.classList.remove('active');
-  });
-  
+  screens.forEach(screen => screen.classList.remove('active'));
+
+  // Mostrar la pantalla seleccionada
   const targetScreen = document.getElementById(screenId);
-  if (targetScreen) {
-    targetScreen.classList.add('active');
+  if (!targetScreen) {
+    console.warn(`La pantalla "${screenId}" no existe.`);
+    return;
   }
+
+  targetScreen.classList.add('active');
+  window.scrollTo({ top: 0, behavior: "smooth" }); // Subir con transición elegante
 }
 
 function goBack() {
@@ -15,8 +19,9 @@ function goBack() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Ecos de Plata y Oscuridad - Aplicación cargada correctamente');
+  console.log('Mi Vida con los Sakamaki — Aplicación cargada correctamente');
 });
+
 
 /* */
 const container = document.querySelector('.blood-container');

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruki Mukami - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #454D71;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/1200x/bc/4e/a7/bc4ea7e842789f3c845ef05465b92b0b.jpg" alt="Ivi">
+
+  <h2>Ruki Mukami</h2>
+
+  <p><strong>Edad:</strong>18 años</p>
+  <p><strong>Estatura:</strong> 1.80 m </p>
+  <p><strong>Cumpleaños:</strong>24 de Abril </p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello negro azabache, liso y elegante.<br>
+     ✞︎ Ojos azules claros, intensos, fríos cuando analiza y cálidos cuando protege.<br>
+     ✞︎ Expresión normalmente seria, difícil de leer.<br>
+     ✞︎ Gafas rectangulares—no las necesita, pero le gusta su “aire intelectual”.<br>
+     ✞︎ Complexión delgada y elegante, postura siempre recta.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Cuando alguien rompe sus reglas: su tono baja, sus palabras cortan.<br>
+     ✞︎ Muy maduro para su edad, con mentalidad de líder.<br>
+     ✞︎ Tiene un fuerte complejo de “hermano mayor” porque quiere corregir los errores del pasado.<br>
+     ✞︎ Extremadamente inteligente, analítico y lógico.<br>
+     ✞︎ De carácter estricto, disciplinado y perfeccionista.<br>
+     ✞︎ Le cuesta expresar emociones afectivas, pero demuestra cariño con protección y gestos sutiles.<br>
+     ✞︎ Puede parecer frío, distante y calculador, pero en realidad siente intensamente.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Es considerado el “Cerebro” de los Mukami.<br>
+     ✞︎ Ama los libros; su conocimiento es vasto.<br>
+     ✞︎ Tiende a cargar con responsabilidades que no le corresponden.<br>
+     ✞︎ Suele ocultar su preocupación real tras regaños.<br>
+     ✞︎ Fortísimo instinto protector, especialmente hacia: Kou, Yuma, Azusa, Emma<br>
+     ✞︎ Odia perder el control.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre biológico: Desconocido ✞︎ <br>
+       ✞︎ Adoptado por Karlheinz, quien lo convierte en vampiro y lo educa. </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Kou Mukami  ✞︎ Yuma Mukami  ✞︎  Azusa Mukami<br>
+       ✞︎  Emma Mukami<br>
+      Ruki la protege más que a nadie, Él la ve como una mezcla entre hermana menor y responsabilidad personal. <br>
+     Se preocupa cuando ella se arriesga o es impulsiva, La mima en secreto (aunque jamás lo admitirá).</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Manipulación psicológica suave: sabe inducir comportamiento mediante frases exactas.<br>
+     ✞︎ Estratega maestro: puede evaluar una situación en segundos. <br>
+     ✞︎ Control absoluto emocional: difícilmente pierde la calma.<br>
+     ✞︎ Inteligencia superior: memorización, análisis y planificación.<br>
+     ✞︎ Velocidad y fuerza vampírica.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Resistencia física y regeneración avanzada.<br>
+     ✞︎ Sus colmillos causan efectos psíquicos agradables pero adictivos.<br>
+     ✞︎ Puede inducir miedo, obediencia o calma con la mirada.<br>
+     ✞︎ Capacidad de localizar a los suyos por olor o energía, útil para proteger a Emma.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Conjunto académico negro con camisa blanca.<br>
+     ✞︎ Chaleco formal y corbata estrecha azul oscuro o negra.<br>
+     ✞︎ Guantes elegantes cuando está en misiones.<br>
+     ✞︎ Su ropa siempre está impecable: sin arrugas, sin manchas, sin desorden.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Le gustan los sabores suaves o refinados.<br>
+     ✞︎ Té negro, café fuerte.<br>
+     ✞︎ Le encanta la buena presentación en los platos.<br>
+      ✞︎ Frutas como frambuesas o arándanos<br>
+     ✞︎ Pescados preparados de forma elegante<br>
+     ✞︎ Panes delicados, pasteles franceses</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Hamburguesas<br>
+     ✞︎ Comidas demasiado dulces<br>
+     ✞︎ Comida chatarra<br>
+     ✞︎ Takoyaki (secretamente piensa que Ayato es “inculto” por ese gusto)</p>
+
+  <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Leer (filosofía, literatura clásica, historia).<br>
+     ✞︎ Cuidar y aconsejar a Emma aunque lo disimula con regaños suaves.<br>
+     ✞︎  Ver a sus hermanos comportándose bien.<br>
+     ✞︎  La fragancia de libros viejos.<br>
+     ✞︎ Conversaciones profundas.<br>
+     ✞︎ La obediencia… pero también la sinceridad.<br>
+     ✞︎ Orden, disciplina y silencio.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ El caos y la suciedad.<br>
+     ✞︎ La debilidad emocional —aunque en el fondo tiene empatía por ella.<br>
+     ✞︎ Ser desobedecido.<br>
+     ✞︎ La falta de respeto.<br>
+     ✞︎ Personas impulsivas sin pensar<br>
+     ✞︎ Que lastimen a Emma o a sus hermanos.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Pensamiento crítico<br>
+     ✞︎ Honestidad directa<br>
+     ✞︎ Inteligencia<br>
+     ✞︎ Perseverancia<br>
+     ✞︎ Calma<br>
+     ✞︎ Personas que piensan antes de actuar</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Actitudes ruidosas o exageradas<br>
+     ✞︎ Tonterías, berrinches sin razón<br>
+     ✞︎ La indecisión constante<br>
+     ✞︎ El desorden mental o físico<br>
+     ✞︎ La irresponsabilidad<br>
+     ✞︎ Personas que mienten por costumbre</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Minimalista, estrictamente ordenada, Colores: negro, gris, azul oscuro, Libreros enormes llenos de literatura y cuadernos de estudio, Escritorio grande de madera oscura, siempre impecable, Cama amplia pero simple, sábanas lisas y colchón firme.<br>
+       Una ventana grande donde cae la luz en diagonal, perfecta para leer, Un sillón elegante donde suele sentarse a leer mientras vigila a sus hermanos, No tiene juguetes ni adornos innecesarios: solo objetos prácticos.<br>
+ Tiene un estante con: tazas de té, frascos ordenados, cuadernos con anotaciones sobre Emma y sus hermanos (sus avances, preocupaciones, etc.)</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>
+ 

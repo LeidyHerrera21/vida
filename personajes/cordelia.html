@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cordelia Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #46624C;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/b5/8b/d6/b58bd697a455c41dd957f4a8dae2a37f.jpg" alt="Ivi">
+
+  <h2>Cordelia Sakamaki</h2>
+
+  <p><strong>Edad:</strong> 35 años (muerta)</p>
+  <p><strong>Estatura:</strong> 1.70 m</p>
+  <p><strong>Cumpleaños:</strong> Desconocida </p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Ojos verde esmeralda hipnóticos, intensos y seductores.<br>
+     ✞︎ Cabello morado, largo, brillante y perfectamente cuidado. <br>
+     ✞︎ Siempre lleva vestidos largos, ajustados y muy sensuales, con colores como rojo, negro, esmeralda y dorado.<br>
+     ✞︎ Alta, delgada y con un porte elegante, regio y dominante.<br>
+     ✞︎  Piel muy pálida, impecable, sin marcas ni imperfecciones.<br>
+     ✞︎ Su presencia impone respeto y miedo al mismo tiempo.<br>
+     ✞︎ Adorna su cuerpo con joyas lujosas (collares, anillos, pendientes).<br>
+     ✞︎ Sus rasgos faciales son extremadamente bellos, casi irreales.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Narcisista extrema: se considera perfecta, superior y digna de adoración.<br>
+     ✞︎ Disfruta controlar y hacer sufrir a otros.<br>
+     ✞︎ Dominante y manipuladora.<br>
+     ✞︎ Posesiva y obsesiva cuando quiere algo.<br>
+     ✞︎ Adicta al poder, la belleza y la devoción ajena.<br>
+     ✞︎ Ve a sus hijos como herramientas, no como personas.<br>
+     ✞︎ Fría, cruel y carente de empatía.<br>
+     ✞︎ Incapaz de reconocer sus errores; culpa siempre a otros.<br>
+     ✞︎ Seductora, calculadora y peligrosa.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Es una de las tres esposas de Karlheinz.<br>
+     ✞︎ Su crianza tóxica y abusiva marcó profundamente a sus hijos.<br>
+     ✞︎ Fue asesinada por sus propios trillizos, quienes ya no soportaban más su crueldad.<br>
+     ✞︎ Se autoproclamaba la más bella del mundo vampírico.<br>
+     ✞︎ Su alma persistió por medio de su corazón implantado en Yui Komori.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> <br>
+       ✞︎ Desconocidos, pero se sabe que proviene de una familia vampírica noble y poderosa. ✞︎ 
+    </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hjios</h3>
+    <p>✞︎ Ayato Sakamaki <br>
+       ✞︎ Kanato Sakamaki<br>
+       ✞︎ Laito Sakamaki</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Karlheinz Sakamaki Su relación era tóxica, basada en competencia, manipulación y deseo de poder. <br>
+  Se insinúa que tuvo múltiples amantes en el pasado.</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Su sangre es extremadamente potente y codiciada.<br>
+     ✞︎ Aura dominante que aterroriza o paraliza. <br>
+     ✞︎ Poder físico superior a muchos vampiros.<br>
+     ✞︎ Encantamientos de control mental.<br>
+     ✞︎ Magia vampírica avanzada.<br>
+     ✞︎ Seductora maestra: puede manipular emociones y voluntades.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Capacidad para influir en la percepción sensorial de otros.<br>
+     ✞︎  Control sobre magia de seducción y dominación mental.<br>
+     ✞︎ Su sangre permite regeneración acelerada y posesiones espirituales.<br>
+     ✞︎ Puede invocar ilusiones sensuales o aterradoras.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Colores que resaltan su belleza: rojo, negro, verde, dorado.<br>
+    ✞︎  Telas finas: satén, seda, terciopelo.<br>
+     ✞︎ Perfumes dulces intensos.<br>
+     ✞︎  Vestidos elegantes y provocativos.<br>
+     ✞︎ Tacones altos que acentúan su figura.<br>
+     ✞︎ Joyas ornamentales.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Sangre de vampiros jóvenes (por placer).<br>
+     ✞︎ El vino rojo simbólico en reuniones. <br>
+     ✞︎ Sangre pura, dulce y de alta calidad.</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Sangre de mala calidad.<br>
+     ✞︎  Comida humana.<br>
+     ✞︎ Personas “aburridas” o sin vitalidad.</p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Ser adorada y obedecida.<br>
+     ✞︎ La belleza, el arte y la moda.<br>
+     ✞︎ El lujo, la riqueza y los halagos. <br>
+     ✞︎ Coleccionar joyas. <br>
+     ✞︎ Que sus hijos la elogien (aunque ella no los ame).<br>
+     ✞︎ La manipulación y el poder.<br>
+     ✞︎ Provocar celos y caos.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ <br>
+     ✞︎ Ser desafiada.<br>
+     ✞︎ Que alguien sea más bello que ella.<br>
+     ✞︎ Ser ignorada.<br>
+     ✞︎ La obediencia sin admiración (quiere devoción, no solo respeto).<br>
+     ✞︎ Envejecimiento o imperfección.<br>
+     ✞︎ La debilidad, especialmente en sus hijos.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Elogios y adoración.<br>
+     ✞︎ Belleza física.<br>
+     ✞︎ Sumisión total.<br>
+     ✞︎ Personas fácilmente manipulables.<br>
+     ✞︎ Lealtad inquebrantable. </p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Falta de atención hacia ella.<br>
+     ✞︎ Independencia de sus víctimas.<br>
+     ✞︎ Rechazo.<br>
+      ✞︎ La rudeza sin elegancia.<br>
+     ✞︎ Personas seguras y dominantes que no se dejan controlar.<br>
+     ✞︎ inteligencia emocional (ella lo ve como amenaza).</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Decoración lujosa y sensual, Colores predominantes: rojo, dorado, negro, Mobiliario elegante: cama con dosel, cortinas de seda, espejos grandes, Perfume floral fuerte impregnado en todo.<br>
+       Joyería y cosméticos por doquier, Vestidores extensos y organizados.<br>
+ Un aura fría y dominante, que pone nervioso a cualquiera que entre, Hay restos de sus objetos personales incluso tras su muerte.</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

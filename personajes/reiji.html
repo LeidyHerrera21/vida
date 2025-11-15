@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reiji Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #97164E;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/8a/13/a9/8a13a99eb18e28f7d09c3c26789e595a.jpg" alt="Ivi">
+
+  <h2>Reiji Sakamaki</h2>
+
+  <p><strong>Edad:</strong> 18 años</p>
+  <p><strong>Estatura:</strong> 1.83 m</p>
+  <p><strong>Cumpleaños:</strong> 29 de Agosto</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello negro-azulado, perfectamente peinado, sin un solo mechón fuera de lugar.<br>
+     ✞︎ Piel blanca impecable.<br>
+     ✞︎ Ojos rojos oscuros, fríos y serios.<br>
+     ✞︎ Complexión delgada y elegante.<br>
+     ✞︎ Usa gafas rectangulares, símbolo de su disciplina y carácter intelectual.<br>
+     ✞︎ Siempre de postura firme y recta.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ No tolera la incompetencia ni la impuntualidad.<br>
+     ✞︎ Tiene una moral rígida y un sentido del deber inquebrantable.<br>
+     ✞︎ Detesta el desorden, el ruido y la falta de educación.<br>
+     ✞︎ Cuando ama… ama de forma dura, posesiva y devota.<br>
+     ✞︎ Aunque parece frío, es capaz de sentir afecto, lealtad y obsesión intensa.<br>
+     ✞︎ No soporta equivocarse; detesta admitir errores.<br>
+     ✞︎ Reprime sus emociones constantemente.<br>
+     ✞︎ Guarda resentimiento profundo hacia Shu por su pereza y por lo vivido en su infancia.<br>
+     ✞︎ Extremadamente estricto, disciplinado y perfeccionista.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Excelente capacidad de análisis.<br>
+     ✞︎ Gran inteligencia estratégica.<br>
+     ✞︎ Control emocional ejemplar.<br>
+     ✞︎ Tiene un orgullo fuerte pero silencioso.<br>
+     ✞︎ Sabe manipular si lo considera necesario.<br>
+     ✞︎ Muy buen planificador y líder.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre: Karlheinz ✞︎ <br>
+       ✞︎ Madre: Beatrix</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ <br>
+     ✞︎ Shu Sakamaki<br>
+     ✞︎ Ayato Sakamaki<br>
+     ✞︎ Laito Sakamaki <br>
+       ✞︎ Kanato Sakamaki <br>
+     ✞︎ Subaru Sakamaki </p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Memoria perfecta.<br>
+     ✞︎ Memoria perfecta.<br>
+     ✞︎ Estratega letal, casi imposible engañarlo.<br>
+     ✞︎ Control total de su fuerza vampírica.<br>
+     ✞︎ Control total de su fuerza vampírica.<br>
+     ✞︎ Precisión absoluta: nunca falla un golpe.<br>
+     ✞︎ Estratega letal, casi imposible engañarlo.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Manipulación del Viento<br>
+     ✞︎ Puede crear ráfagas cortantes como cuchillas.<br>
+     ✞︎ Su poder aumenta con su concentración.<br>
+     ✞︎ Puede lanzar vientos silenciosos que cortan sin dejar rastro visible.<br>
+     ✞︎ Genera barreras de viento.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Corbata o cinta roja perfectamente alineada.<br>
+     ✞︎ Siempre parece salido de un evento elegante.<br>
+     ✞︎ Guantes negros al manipular pociones o armas.<br>
+     ✞︎ Traje formal oscuro con chaleco.<br>
+     ✞︎ Camisa blanca impecable.<br>
+     ✞︎ Zapatos negros lustrosos.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Prefiere la sangre de personas disciplinadas o cultas.<br>
+     ✞︎ Dulces refinados como macarons, chocolates amargos y galletas crujientes.<br>
+     ✞︎ Té e infusiones artesanales.</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Cualquier comida que no tenga presentación impecable.<br>
+     ✞︎ Platos desordenados o grasosos.<br>
+     ✞︎ Takoyaki (le molesta que Ayato lo coma de forma ruidosa).<br>
+     ✞︎ Comida rápida.</p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Las reglas (especialmente las creadas por él).<br>
+     ✞︎ Los objetos finos o antiguos.<br>
+     ✞︎  El orden, la limpieza y la disciplina.<br>
+     ✞︎  Las personas educadas.<br>
+     ✞︎ La alquimia.<br>
+     ✞︎ La lectura silenciosa.<br>
+     ✞︎ La música clásica.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ El ruido.<br>
+     ✞︎ Ser subestimado.<br>
+     ✞︎ La pereza, especialmente la de Shu.<br>
+     ✞︎ La falta de respeto hacia la etiqueta.<br>
+     ✞︎ El caos que provocan Ayato, Kanato y Laito.<br>
+     ✞︎ Que toquen sus cosas sin permiso.<br>
+     ✞︎ La indisciplina.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p>✞︎ Personas inteligentes y con ambición.<br>
+     ✞︎ Que obedezcan sin cuestionar (aunque tampoco tolera tontos).<br>
+     ✞︎ Seriedad y elegancia.<br>
+     ✞︎ Gente que mantiene la compostura.<br>
+     ✞︎ Que sean responsables.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Los que no respetan las reglas básicas.<br>
+     ✞︎ La deshonestidad.<br>
+     ✞︎ Gente infantil o escandalosa.<br>
+     ✞︎ Los irresponsables.<br>
+          ✞︎ La falta de educación. <br>
+     ✞︎ La mentira descarada.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Una de las habitaciones más grandes y ordenadas,Decoración clásica en tonos oscuros: negro, rojo y dorado, Libreros enormes llenos de grimorios y literatura antigua. <br>
+      Un laboratorio privado para pociones, frascos y experimentos, Escritorio impecable, sin un solo papel fuera de su sitio, Cama amplia, perfectamente tendida.  <br>
+ Iluminación tenue con lámparas antiguas, Olor característico a incienso, madera y té, Todo está etiquetado, organizado y limpio, Nadie entra sin su permiso y si alguien lo hace, él lo sabe.  </p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beatrix Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #4C5A7F;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/ee/81/7b/ee817b5939eae9f8d9eae4661a7b91cf.jpg" alt="Ivi">
+
+  <h2>Beatrix Sakamaki</h2>
+
+  <p><strong>Edad:</strong> Desconocida </p>
+  <p><strong>Estatura:</strong> 1.57 m</p>
+  <p><strong>Cumpleaños:</strong> Desconocida </p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Su expresión suele ser serena, pero con un aire de tristeza contenida.<br>
+     ✞︎ Piel pálida y tersa, típica de los vampiros nobles.<br>
+     ✞︎ Pose elegante, refinada y delicada.<br>
+     ✞︎ Ojos azules claros, suaves pero llenos de melancolía.<br>
+     ✞︎ Viste de manera muy formal: vestidos largos, de colores suaves como blanco, azul, plateado o lavanda.<br>
+     ✞︎ Cabello rubio dorado, largo, fino y perfectamente peinado.<br>
+     ✞︎ Siempre mantiene una postura impecable: es la esposa con la imagen más “pura” y regia.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Amable, paciente y educada.<br>
+     ✞︎ Serena, pero emocionalmente frágil.<br>
+     ✞︎ Vive intentando satisfacer expectativas casi imposibles.<br>
+     ✞︎ Se esfuerza por ser una buena madre, aunque le es difícil conectar.<br>
+     ✞︎ Muy insegura, especialmente debido a la presión de Cordelia.<br>
+     ✞︎ Afectuosa, pero distante a veces por miedo al rechazo.<br>
+     ✞︎ Sumisa dentro de su matrimonio con Karlheinz.<br>
+     ✞︎ Se culpa fácilmente por todo, aunque no sea su responsabilidad.<br>
+     ✞︎ Aprecia el orden, la disciplina y la cortesía.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Segunda esposa oficial de Karlheinz.<br>
+     ✞︎ Representa la figura de la “madre noble”, en contraste con la manipulación de Cordelia.<br>
+     ✞︎ Se esfuerza por proteger a sus hijos, aunque Reiji cree que nunca lo logró del todo.<br>
+     ✞︎ Su matrimonio fue políticamente arreglado y emocionalmente doloroso.<br>
+     ✞︎ Sufrió años de humillación comparándose con Cordelia.</p>
+
+  <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Pertenece a un linaje vampírico noble, pero su familia no es mencionada directamente en la historia.<br>
+       ✞︎ Fue elegida por Karlheinz por su “pureza” y belleza serena. </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hijos</h3>
+    <p>✞︎ Shu Sakamaki  <br>
+       ✞︎ Reiji Sakamaki</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Karlheinz Sakamaki La trataba con frialdad, distancia y como una pieza más en su experimento familiar. <br>
+   Su relación se caracterizaba por la frustración y el abandono emocional. </p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Poder vampírico tradicional: agilidad, fuerza, longevidad.<br>
+     ✞︎  Aura calmante: puede transmitir serenidad o disminuir tensiones.<br>
+     ✞︎ Gran disciplina emocional<br>
+     ✞︎ Precisión en magia ceremonial.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Control leve sobre el hielo y las temperaturas frías, simbolizando su personalidad suave y nostálgica.<br>
+     ✞︎ Uso de barreras mágicas protectoras.<br>
+     ✞︎ Una voz suave que puede tranquilizar o adormecer a otros.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Fragancias ligeras como flores blancas.<br>
+     ✞︎ Colores predominantes: blanco, azul cielo, plata y lila.<br>
+     ✞︎ Accesorios discretos: perlas, cintas finas, broches elegantes.<br>
+     ✞︎ Vestidos largos y elegantes.<br>
+     ✞︎ Estilo sobrio, aristocrático y puro.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Prefiere sangre con sabor suave, especialmente sangre joven femenina.<br>
+     ✞︎ Le agradan los dulces suaves por su delicadeza, aunque no los come realmente.<br>
+     ✞︎ Té (solo como aroma y tradición, no lo bebe).</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Comida humana con olores fuertes.<br>
+     ✞︎ Sangre con sabor amargo.<br>
+     ✞︎ Nada muy especiado o agresivo. </p>
+
+  <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ La lectura.<br>
+     ✞︎ La música clásica suave.<br>
+     ✞︎  Hablar con tranquilidad y cortesía.<br>
+     ✞︎ La paz y el silencio.<br>
+     ✞︎ La armonía en el hogar<br>
+     ✞︎ El arte y las flores.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Los conflictos entre esposas.<br>
+     ✞︎ Las comparaciones constantes con Cordelia.<br>
+     ✞︎ Los gritos, la violencia y el caos.<br>
+     ✞︎ La crueldad de Karlheinz hacia sus hijos.<br>
+     ✞︎ Ser ignorada o tratada como inferior.  </p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ El respeto.<br>
+     ✞︎ La disciplina.<br>
+     ✞︎ La amabilidad.<br>
+     ✞︎ La educación y los buenos modales.<br>
+     ✞︎ La sinceridad tierna.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ La manipulación.<br>
+     ✞︎ La agresividad.<br>
+     ✞︎ Las personas que imponen su voluntad por encima de otros.<br>
+     ✞︎ La falta de respeto.<br>
+     ✞︎ La vanidad y el narcisismo.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Decorada con blanco, azul pastel y plata, Muy elegante, ordenada y silenciosa, Cortinas largas y translúcidas que dejan entrar luz tenue.<br>
+       Cama amplia con dosel y telas delicadas, Jarrones con flores blancas (lis, gardenias, lirios), Tocador antiguo con perfumes suaves.<br>
+ Muebles refinados, nada extravagante, El ambiente transmite paz… pero también tristeza y soledad, Un espacio hermoso pero vacío, reflejo de su vida en la mansión.</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

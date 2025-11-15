@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christa Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #462832;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/37/7e/44/377e44424844468f171d3f6403c9f3cb.jpg" alt="Ivi">
+
+  <h2>Christa Sakamaki</h2>
+
+  <p><strong>Edad:</strong>  Desconocida </p>
+  <p><strong>Estatura:</strong> 1.65 m</p>
+  <p><strong>Cumpleaños:</strong> Desconocida </p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello plateado-blanco, largo, suave y ligeramente ondulado.<br>
+     ✞︎ Piel muy blanca, casi translúcida, la más delicada entre las esposas.<br>
+     ✞︎ Expresión ausente, perdida, como si viviera atrapada en su mente. <br>
+     ✞︎  Ojos rojos pálidos, casi transparentes, que reflejan tristeza y fragilidad.<br>
+     ✞︎ Suele vestir en tonos blancos, celestes, plata o colores apagados.<br>
+     ✞︎ Su belleza es etérea, frágil y serena, como una muñeca rota.<br>
+     ✞︎ Complexión fina, delgada, con apariencia enfermiza.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Insegura, dependiente y temerosa.<br>
+     ✞︎ Extremadamente sensible y emocional.<br>
+     ✞︎  Cariñosa, pero inestable mentalmente.<br>
+     ✞︎  Con tendencia a episodios de ansiedad, pánico o colapsos.<br>
+     ✞︎ Fue manipulada por Karlheinz y humillada por Cordelia. <br>
+     ✞︎ Vive con la culpa, la tristeza y una profunda soledad.<br>
+     ✞︎ Se siente indigna de ser esposa del Rey Vampiro.<br>
+     ✞︎ Amorosa con Subaru, aunque sufre de episodios en los que se desconecta.<br>
+     ✞︎ Pasa mucho tiempo encerrada, evitando conflictos.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Tercera esposa oficial de Karlheinz.<br>
+     ✞︎ Su salud mental se deterioró debido a:<br>
+     ✞︎ El desprecio de Cordelia <br>
+     ✞︎ La presión de ser “perfecta”<br>
+     ✞︎ El matrimonio hostil con Karlheinz</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Procede de una familia vampírica noble, pero poco poderosa.<br>
+       Su linaje fue elegido por Karlheinz por su “pureza” emocional, no por su fuerza. </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hijos</h3>
+    <p>✞︎ Subaru Sakamaki </p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>✞︎ Karlheinz Sakamaki <br>
+    ✞︎ La usó en su experimento familiar como parte del sistema de “tres esposas”.<br>
+    ✞︎  Nunca la apoyó emocionalmente.<br>
+     ✞︎ Ignoró por completo su deterioro mental.<br>
+     ✞︎ La trataba con distancia y frialdad.</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Habilidad de percepción emocional intensa.<br>
+     ✞︎  Aura calmante cuando está estable.<br>
+     ✞︎ Puede detectar sentimientos negativos como tristeza o miedo.<br>
+     ✞︎ Magia defensiva suave</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Conexión mágica involuntaria con Subaru (sus emociones a veces lo afectan).<br>
+     ✞︎  Capacidad para crear un ambiente gélido cuando está aterrada o en pánico.<br>
+     ✞︎ Control sobre niebla o hielo tenue, relacionado a su fragilidad emocional.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Vestidos largos y ligeros.<br>
+     ✞︎ Colores predominantes: blanco, plateado, azul pálido.<br>
+     ✞︎  Encajes delicados, telas finas y suaves.<br>
+     ✞︎ Usa joyería mínima y siempre en tonos claros.<br>
+     ✞︎ Ninguna prenda llamativa; todo en ella refleja sutileza.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Prefiere cantidades pequeñas; su cuerpo es sensible.<br>
+     ✞︎ Prefiere sangre suave, ligera, generalmente femenina.<br>
+     ✞︎ Aromas florales, como té o lavanda.</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Sangre con sabor fuerte o amarga.<br>
+     ✞︎ Comida humana muy condimentada.<br>
+     ✞︎ Olores agresivos o pesados.</p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ El silencio y la tranquilidad.<br>
+     ✞︎ La compañía tranquila de Subaru.<br>
+     ✞︎ Las flores blancas <br>
+     ✞︎ Las habitaciones iluminadas por velas suaves.<br>
+     ✞︎ La nieve, el invierno y los paisajes fríos.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Los gritos o peleas fuertes.<br>
+     ✞︎ La violencia o situaciones de estrés.<br>
+     ✞︎ Las órdenes severas.<br>
+     ✞︎ El desprecio o indiferencia de Karlheinz.<br>
+     ✞︎ La presencia de Cordelia.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ La comprensión emocional.<br>
+     ✞︎ La paciencia.<br>
+     ✞︎ La amabilidad.<br>
+     ✞︎ Las voces suaves.<br>
+     ✞︎ La presencia cálida y protectora.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ La presión emocional.<br>
+     ✞︎ La agresividad.<br>
+     ✞︎ La manipulación.<br>
+     ✞︎ El juicio o la crítica.<br>
+     ✞︎ Las personas orgullosas o dominantes.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Una de las habitaciones más tranquilas y delicadas, Colores: blanco, gris claro y celeste, Cama amplia con cortinas finas y telas suaves.<br>
+       Cortinas claras que dejan entrar luz fría de la luna, Muebles simples pero elegantes, sin excesos, Jarrones con flores blancas.<br>
+ Varios frascos con medicinas o perfumes calmantes, Un ambiente silencioso, helado… casi como un santuario triste, Parece más un dormitorio de una reina enferma que de una esposa del Rey Vampiro.</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+</body>
+</html>

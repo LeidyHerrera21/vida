@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanato Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #D6ADCF;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/df/24/6c/df246c55d519b418d617c312e5991333.jpg" alt="Ivi">
+
+  <h2>Kanato Sakamaki</h2>
+
+  <p><strong>Edad:</strong> 17 años</p>
+  <p><strong>Estatura:</strong> 1.65 m</p>
+  <p><strong>Cumpleaños:</strong> 21 de Marzo</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello lavanda claro, corto y esponjado, con flequillo desordenado.<br>
+     ✞︎ Ojos grandes y expresivos de color lila, con un brillo inquietante.<br>
+     ✞︎ Complexión delgada y apariencia frágil.<br>
+     ✞︎ Sus expresiones cambian con rapidez: dulce → perturbador → furioso.<br>
+     ✞︎ Siempre lleva consigo a su inseparable oso de peluche: Teddy.<br>
+     ✞︎ Suele vestir ropa elegante estilo victoriano moderno, generalmente en tonos púrpura, blanco, negro y azul.<br>
+     ✞︎ Tez muy pálida, casi enfermiza.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Extremadamente emocional, sensible y fácil de alterar.<br>
+     ✞︎Profundamente inestable, con cambios de humor repentinos. <br>
+     ✞︎ Le gusta que lo elogien, que lo atiendan y que lo traten con suavidad.<br>
+     ✞︎Cruel cuando se enfada —su dulzura desaparece en segundos. <br>
+     ✞︎ Muy dependiente de Teddy y teme quedarse solo.<br>
+     ✞︎ Rencoroso, manipulador y obsesivo cuando se fija en alguien.<br>
+     ✞︎ Suele llorar cuando algo no sale como quiere… y después puede sonreír sádicamente.<br>
+     ✞︎ Infantil y caprichoso.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Vive atrapado entre su niñez perdida, el trauma con su madre y su naturaleza vampírica.<br>
+     ✞︎ Es uno de los trillizos de la familia Sakamaki.<br>
+     ✞︎ Le encanta cantar —posee una voz angelical que contrasta con su oscuridad.<br>
+     ✞︎ Tiene una voz suave pero puede tornarse muy aterradora cuando grita.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre: Karlheinz.✞︎ <br>
+       ✞︎ Madre: Cordelia madre abusiva, narcisista, tóxica.
+    </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Laito Sakamaki <br>
+       ✞︎ Ayato Sakamaki <br>
+       ✞︎ Shu Sakamaki <br>
+       ✞︎ Subaru Sakamaki <br>
+       ✞︎ Reiji Sakamaki
+    </p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Puede invocar almas atrapadas por su madre, Cordelia.<br>
+     ✞︎ Control elemental sobre el fuego, que puede aumentar con sus emociones. <br>
+     ✞︎ Gritos ultrasónicos que pueden romper objetos o aturdir.<br>
+     ✞︎ Habilidad innata para manipular emociones mediante su voz o llanto. <br>
+     ✞︎ Fuerza y velocidad vampírica tradicional.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ “Lamentos Resonantes”: su llanto puede afectar físicamente a su objetivo.<br>
+     ✞︎ Capacidad para invocar muñecos, sombras o espíritus atados a su pasado. <br>
+     ✞︎ Dominio del fuego púrpura, un tipo de llama espectral tóxica para humanos.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Teddy siempre en brazos o colgando de su mano.<br>
+     ✞︎ Zapatos negros formales.<br>
+     ✞︎ Pantalones cortos tipo uniforme victoriano.<br>
+      ✞︎ A veces lleva capas, moños o accesorios pequeños.<br>
+     ✞︎ Camisa blanca con cuello de encaje.<br>
+     ✞︎ Chaleco o suéter azul marino o morado.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Dulces, especialmente:<br>
+     ✞︎ Caramelos<br>
+     ✞︎ Tartas<br>
+     ✞︎ Helados<br>
+     ✞︎ Pasteles de frutas</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Comida demasiado simple o “aburrida”.<br>
+     ✞︎ No soporta sabores fuertes.<br>
+     ✞︎ Cualquier comida salada o amarga.<br>
+     ✞︎ Verduras </p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Su osito Teddy (lo más importante en su vida). <br>
+     ✞︎ Cantar.<br>
+     ✞︎ Los dulces. <br>
+     ✞︎ Ser el centro de atención. <br>
+     ✞︎ Que lo traten como a un príncipe.<br>
+     ✞︎ Las muñecas antiguas.<br>
+     ✞︎ Las historias macabras.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ La gente fría o indiferente.<br>
+     ✞︎ Que toquen o dañen a Teddy.<br>
+     ✞︎ Que lo ignoren.<br>
+     ✞︎ Que lo contradigan.<br>
+     ✞︎ Recordar a su madre Cordelia.<br>
+     ✞︎ Ser rechazado.<br>
+     ✞︎ La luz demasiado brillante. </p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Que lo atiendan siempre.<br>
+     ✞︎ Que lo elogien o admiren.<br>
+     ✞︎ Que lo tranquilicen con voz suave.<br>
+     ✞︎ Que acepten sus caprichos.<br>
+     ✞︎ Que tengan cierta inocencia.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Que lo comparen con sus hermanos.<br>
+     ✞︎ Personas dominantes o mandonas.<br>
+     ✞︎ La mentira… a menos que sea él quien manipule.<br>
+     ✞︎ La arrogancia (a menos que sea Ayato, con quien está acostumbrado).<br>
+     ✞︎ Que cuestionen sus emociones.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Decorada como una habitación infantil antigua, con un tono oscuro y melancólico, Colores: lila, negro, blanco y tonos pastel fríos, Muñecas antiguas por todas partes.<br>
+      Velas purpuras y juguetes rotos, Una gran cama con dosel y cortinas de encaje, Estantes con frascos que contienen cosas inquietantes (cenizas, muñecos, etc). <br>
+ Un olor a dulce mezclado con algo misterioso, Ventanas cubiertas con cortinas gruesas, Su habitación siempre parece salida de un cuento de terror infantil.</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

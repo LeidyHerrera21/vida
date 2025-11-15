@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laito Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #112F25;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/28/5a/0e/285a0e5b0ef7eb3be18938d69cf5e25d.jpg" alt="Ivi">
+
+  <h2>Laito Sakamaki</h2>
+
+  <p><strong>Edad:</strong> 17 años</p>
+  <p><strong>Estatura:</strong> 1.74 m</p>
+  <p><strong>Cumpleaños:</strong> 20 de Marzo</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Complexión delgada y estilizada.<br>
+     ✞︎ Gestos sutiles cargados de intención.<br>
+     ✞︎ Siempre con una sonrisa traviesa y ojos entrecerrados.<br>
+     ✞︎ Cabello pelirrojo cobrizo, ondulado, suave y elegante.<br>
+     ✞︎ Piel pálida, fina y sin marcas visibles.<br>
+     ✞︎ Ojos verdes esmeralda con un brillo pícaro y peligroso.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Es inteligente, observador y retorcido.<br>
+    ✞︎ Seductor, coqueto y manipulador.<br>
+     ✞︎ Le encanta provocar, tentar y manipular.<br>
+     ✞︎ Juega con las emociones ajenas.<br>
+     ✞︎ Utiliza el encanto y el doble sentido para conseguir lo que quiere.<br>
+     ✞︎ Finge ligereza para ocultar su trauma con Cordelia (su madre).<br>
+     ✞︎ Aunque parece alegre, guarda un dolor profundo.<br>
+     ✞︎ Puede cambiar de actitud “dulce” a cruel en segundos.<br>
+     ✞︎ Tiene problemas de apego emocional:<br>
+     ✞︎ Quiere ser deseado<br>
+     ✞︎ Pero teme ser amado de verdad.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Su sonrisa nunca es al 100% sincera.<br>
+     ✞︎ Crueldad disfrazada de amabilidad.<br>
+     ✞︎ Agilidad física muy notable.<br>
+     ✞︎ Capacidad de jugar mentalmente con su presa.<br>
+     ✞︎ Dominio absoluto de la palabra: tono suave, hipnotizante.<br>
+     ✞︎ Inteligencia emocional alta (sabe cómo leer a las personas).</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre: Karlheinz.✞︎ <br>
+       ✞︎ Madre: Cordelia madre abusiva, narcisista, tóxica.
+    </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Ayato Sakamaki <br>
+       ✞︎ Kanato Sakamaki <br>
+       ✞︎ Shu Sakamaki <br>
+       ✞︎ Subaru Sakamaki <br>
+       ✞︎ Reiji Sakamaki
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Gran velocidad y agilidad.<br>
+     ✞︎  Fuerza vampírica estándar.<br>
+     ✞︎ Lector natural del lenguaje corporal.<br>
+     ✞︎ Seducción vampírica avanzada.<br>
+     ✞︎  Muy resistente psicológicamente (por trauma temprano).<br>
+     ✞︎ Capacidad de manipular emociones y tentaciones.<br>
+     ✞︎ Capacidad de hipnosis profunda.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Manipulación del Agua<br>
+     ✞︎ Puede crear agua y controlarla.<br>
+     ✞︎  Puede ahogar sin tocar físicamente.<br>
+     ✞︎  Puede formar armas líquidas.<br>
+     ✞︎ Capacidad de envolver a la víctima en agua ilusoria para dominarla mentalmente.<br>
+     ✞︎ Su poder se vuelve más fuerte cuanto más “calmada” está su voz.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Pantalón ajustado negro.<br>
+     ✞︎ Camisa blanca abierta, reveladora.<br>
+     ✞︎  Saco verde oscuro elegante.<br>
+     ✞︎  Sombrero característico color vino con cinta.<br>
+     ✞︎ Zapatos formales oscuros.<br>
+     ✞︎ Estética provocativa y refinada.<br>
+     ✞︎ Accesorios: collar fino o cadena ligera.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ No le importa la comida…<br>
+     ✞︎ Pero le gustan los postres suaves: crepas, fresas, crema batida, uvas, macarons. <br>
+     ✞︎ Su sangre favorita: personas tímidas o prudentes que reaccionan a su coqueteo.</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Platos amargos.<br>
+     ✞︎ Odia el takoyaki (lo considera vulgar y ruidoso, como Ayato).<br>
+     ✞︎ Comida demasiado salada.<br>
+     ✞︎ Platos aburridos o sin textura.</p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Coquetear.<br>
+     ✞︎ Jugar psicológicamente con la gente.<br>
+     ✞︎  El arte sensual y la música suave.<br>
+     ✞︎ Las reacciones tímidas o nerviosas. <br>
+     ✞︎ El vino y los postres.<br>
+     ✞︎ Ver a la gente sonrojarse.<br>
+      ✞︎ Las noches de lluvia.<br>
+     ✞︎ Ropa elegante y provocadora.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Recordar a Cordelia.<br>
+     ✞︎ Ser tratado como un objeto<br>
+     ✞︎ Las órdenes.<br>
+     ✞︎ La violencia innecesaria de Ayato.<br>
+     ✞︎ La moral rígida.<br>
+     ✞︎ El desinterés<br>
+     ✞︎ El tono autoritario de Reiji.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Personas que se dejan tentar.<br>
+     ✞︎ Gente que muestra emociones genuinas.<br>
+     ✞︎ Miradas tímidas o inocentes.<br>
+     ✞︎ Aquellos que lo desafían con elegancia.<br>
+     ✞︎ La gente que no lo rechaza al instante.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Los agresivos sin clase.<br>
+     ✞︎ Quienes lo juzgan sin conocerlo.<br>
+     ✞︎ Gente muy ruidosa o vulgar.<br>
+     ✞︎ Los que no entienden el doble sentido.<br>
+     ✞︎ Personas cerradas emocionalmente.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> Una de las más elegantes y seductoras, Cortinas largas de terciopelo rojo, Cama grande con dosel oscuro, Perfume ligero en el ambiente.<br>
+       Luz suave, cálida y tenue, Espejos grandes (no por narcisismo, sino por estética), Librero con libros sobre psicología, erotismo y filosofía, Ropero ordenado con ropa fina.<br>
+ Alfombra suave y muebles elegantes, Tiene rosas o pétalos secos como decoración, Sensación de lujo… pero también de vacío emocional. </p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

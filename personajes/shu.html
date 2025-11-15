@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shu Sakamaki - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #2F4BB6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/f6/04/d0/f604d077dc6c150e07eb412d3de10ba9.jpg" alt="Ivi">
+
+  <h2>Shu Sakamaki</h2>
+
+  <p><strong>Edad:</strong> 19 años</p>
+  <p><strong>Estatura:</strong> 1.80 m</p>
+  <p><strong>Cumpleaños:</strong> 18 de Octubre</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello rubio dorado, largo hasta el cuello, desordenado y suave.<br>
+     ✞︎ Ojos azul celeste, calmados y a veces inexpresivos.<br>
+     ✞︎ Piel extremadamente pálida.<br>
+     ✞︎ A menudo camina encorvado, con aire despreocupado.<br>
+     ✞︎ Complexión delgada pero tonificada, aunque no lo parezca.<br>
+     ✞︎ Expresión cansada permanentemente.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Habla poco y solo cuando es necesario.<br>
+     ✞︎ Siempre parece aburrido o sin energía.<br>
+     ✞︎ Extremo perezoso, indiferente y silencioso.<br>
+     ✞︎ No acepta órdenes de nadie, ni siquiera de Reiji.<br>
+     ✞︎ Tiene un pasado traumático marcado por la obsesión enfermiza de Edgar, su amigo humano.<br>
+     ✞︎ Le gusta la libertad y odia las responsabilidades.<br>
+     ✞︎ Es difícil hacerlo enojar… pero cuando pierde la paciencia, se vuelve aterrador.<br>
+     ✞︎ Aunque parezca frío, es observador y comprende a las personas mejor de lo que deja ver.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Muy inteligente, aunque no lo parezca.<br>
+     ✞︎ Excelente estratega cuando decide involucrarse.<br>
+     ✞︎ Su aparente apatía le permite mantener la calma en situaciones extremas.<br>
+     ✞︎ Prefiere evitar conflictos innecesarios.<br>
+     ✞︎ Es el que mejor entiende la soledad.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre: Karlheinz ✞︎ <br>
+       ✞︎ Madre: Beatrix, la más estricta de las esposas del patriarca.
+    </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Reiji Sakamaki <br>
+       ✞︎ Laito Sakamaki <br>
+       ✞︎ Kanato Sakamaki <br>
+       ✞︎ Ayato Sakamaki<br>
+       ✞︎ Subaru Sakamaki</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Velocidad y fuerza vampírica (muy superior a la media).<br>
+     ✞︎ Capacidad de hipnosis vampírica avanzada. <br>
+     ✞︎ Excelente manejo de armas de fuego cuando lo necesita.<br>
+     ✞︎ Resistencia física inmensa (soporta heridas que otros no podrían).<br>
+     ✞︎ Percepción sensorial aumentada: detecta presencias y emociones con facilidad.<br>
+     ✞︎ Control absoluto de su respiración y energía.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Manipulación del Fuego<br>
+     ✞︎ Control perfecto: puede quemar sin destruir.<br>
+     ✞︎ Las llamas aumentan a medida que se emociona.<br>
+     ✞︎ Puede crear llamas de diferentes intensidades.<br>
+     ✞︎ Puede quemar sin dejar rastro físico.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Camisa blanca desabotonada.<br>
+     ✞︎ Chaqueta negra larga, elegante, que suele llevar abierta.<br>
+     ✞︎ Pantalón negro.<br>
+     ✞︎ Corbata roja que nunca ajusta bien.<br>
+     ✞︎ Zapatos formales pero gastados.<br>
+     ✞︎ A veces lleva audífonos alrededor del cuello: escucha música clásica o suave.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Gusta de alimentos simples como pan tostado, sopas suaves y té negro ligero.<br>
+     ✞︎ Prefiere la sangre de personas tranquilas; le relaja.</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Comida demasiado condimentada.<br>
+     ✞︎ Platos pesados o grasos.<br>
+     ✞︎ Cosas picantes.<br>
+     ✞︎ Takoyaki (cree que es “molestamente ruidoso e inútil” como Ayato comiéndolo).</p>
+
+   <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Dormir.<br>
+     ✞︎ Escuchar música.<br>
+     ✞︎  Estar en silencio.<br>
+     ✞︎  El agua<br>
+      ✞︎ Los lugares solitarios.<br>
+     ✞︎ Observar el cielo desde la azotea.<br>
+     ✞︎ Las personas tranquilas.<br>
+     ✞︎ Tocar el violín</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Responsabilidades, especialmente las de heredero.<br>
+     ✞︎ El ruido.<br>
+     ✞︎ Las órdenes.<br>
+     ✞︎ Las discusiones familiares.<br>
+     ✞︎ Las personas insistentes.<br>
+     ✞︎ El pasado con Edgar.<br>
+          ✞︎ La forma arrogante de Ayato.<br>
+     ✞︎ Los llantos o gritos constantes.</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ La calma.<br>
+     ✞︎ Que respeten su espacio.<br>
+     ✞︎ Que no lo presionen.<br>
+     ✞︎ Gente honesta que dice las cosas sin drama.<br>
+     ✞︎ Que alguien pueda sentarse a su lado sin incomodarlo.</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Personas escandalosas.<br>
+     ✞︎ Los que lo obligan a moverse.<br>
+     ✞︎ Los que hablan mucho sin sentido.<br>
+     ✞︎ Los que intentan controlarlo.<br>
+     ✞︎ La gente superficial.</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> La habitación más tranquila y apartada, Cama grande con sábanas claras, Ventanas amplias que dejan entrar mucha luz natural.<br>
+       Estanterías con libros, casi todos clásicos o música, Nada de decoración exagerada; minimalismo puro, Un reproductor antiguo y audífonos <br>
+      Alfombra suave para amortiguar el sonido, Olor a madera y a libros viejos, La habitación siempre está ordenada, a diferencia de la de Ayato.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>
